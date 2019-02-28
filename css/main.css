@@ -834,12 +834,6 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: .4rem;
-  height: 6rem;
   line-height: 5.6rem;
   padding: 0 3.2rem;
   margin: 0 .4rem 1.6rem 0;
@@ -2031,7 +2025,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100vh;
   min-height: 786px;
-  background-image: url(../images/pattern.jpg);
+  background-image: url(../images/pattern6.jpg);
   background-size: 760px 380px;
   position: relative;
   overflow: hidden;
@@ -2046,17 +2040,23 @@ input::-moz-focus-inner {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #121619;
-  opacity: .8;
+  background-color: green;
+  background-image: linear-gradient(to bottom right, black, green);
+   /*#121619*/
+    background-image: url(../images/cuttingboard.png);
+  opacity: 1.0;
 }
 
 .s-home::after {
   z-index: 2;
   display: block;
   content: "";
-  height: 100vh;
+  height: 107.5vh;
   width: 5%;
-  background-color: #121619;
+  background-color: green;
+  /*#121619*/
+ background-image: url(../images/cb1.png);
+ 
   position: absolute;
   left: 0;
   top: 0;
@@ -2069,7 +2069,7 @@ input::-moz-focus-inner {
   content: "";
   width: calc(50% - 200px);
   height: 100vh;
-  background-image: url(../images/app-user.jpg);
+  background-image: url(../images/app-user.png);
   background-origin: center top;
   background-repeat: no-repeat;
   background-size: cover;
